@@ -1,0 +1,105 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cricket World</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #004d00;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #333;
+            overflow: hidden;
+        }
+        nav a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 16px 20px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        .container {
+            margin: 20px;
+        }
+        .scoreboard, .news, .stats {
+            background-color: white;
+            padding: 15px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .scoreboard h2, .news h2, .stats h2 {
+            color: #004d00;
+        }
+        footer {
+            background-color: #004d00;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Cricket World</h1>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#">Live Scores</a>
+    <a href="#">Players & Teams</a>
+    <a href="#">News & Updates</a>
+</nav>
+
+<div class="container">
+    <!-- Live Score Section -->
+    <section class="scoreboard">
+        <h2>Live Score: India vs Australia</h2>
+        <p><strong>India:</strong> 120/2 (15 overs)</p>
+        <p><strong>Australia:</strong> 110/3 (14 overs)</p>
+    </section>
+
+    <!-- Latest News Section -->
+    <section class="news">
+        <h2>Latest Cricket News</h2>
+        <p><a href="#">India wins series against Australia!</a></p>
+        <p><a href="#">Top 10 Players to Watch in the Upcoming T20 League</a></p>
+    </section>
+
+    <!-- Players and Teams Stats Section -->
+    <section class="stats">
+        <h2>Player Stats</h2>
+        <p><strong>Virat Kohli (India):</strong> 45 runs, 2 wickets</p>
+        <p><strong>David Warner (Australia):</strong> 60 runs, 1 wicket</p>
+        <h3>Team Stats</h3>
+        <p><strong>India:</strong> 150 runs in 20 overs</p>
+        <p><strong>Australia:</strong> 140 runs in 19 overs</p>
+    </section>
+</div>
+
+<footer>
+    <p>&copy; 2024 Cricket World | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
